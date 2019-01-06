@@ -1,0 +1,40 @@
+.ArticleCard-wrapper {
+  width: 250px;
+  box-shadow: 0 2px 4px 0 var(--shadow-color);
+}
+
+.ArticleCard-image {
+  height: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../../images/card_default_img.jpg");
+}
+
+.ArticleCard-content {
+  background: var(--page-bg-color);
+  padding: 10px;
+}
+
+.ArticleCard-title {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  width: 95%;
+  color: black;
+}
+
+.ArticleCard-sub-title {
+  font-size: 0.75rem;
+  opacity: 0.6;
+  line-height: 1.5rem;
+}
+
+.ArticleCard-title-block {
+  display: flex;
+  align-items: center;
+}
+
+.ArticleCard-status {
+  width: 5%;
+  height: 12px;
+}
